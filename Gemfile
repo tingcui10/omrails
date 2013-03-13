@@ -3,12 +3,12 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 gem 'jquery-rails'
 
-group :production do
-	gem 'pg', '0.12.2'
+group :production do 
+	gem 'pg'
 end
 
-group :development, :itest do
-	gem 'sqlite3', '1.3.4'
+group :development, :test do
+	gem 'sqlite3'
 end
 
 group :assets do
