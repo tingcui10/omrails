@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $navbarBackgroundHighlight: white;
 $navbarBackground: white;
 $btnPrimaryBackground: purple;
@@ -20,4 +21,21 @@ body{
     a{
         color: $gray;
     }
+=======
+@import 'bootstrap'; 
+
+body {
+	padding-top: 60px; 
+}
+
+@import 'bootstrap-responsive'; 
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+>>>>>>> 1b43fdf3cfaf1d98b92f6b2057aced815a96cde6
 }
