@@ -1,4 +1,6 @@
 Omrails::Application.routes.draw do
+  get "pages/home"
+
   resources :pins
 
 
